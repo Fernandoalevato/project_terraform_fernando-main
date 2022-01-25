@@ -16,14 +16,14 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "my-bucket-gfttestkleberrausis" {
-  bucket = "gfttestkleberrausis"
+  bucket = "terraform-fernando-teste1"
   acl    = "private"
 
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
     Managedby   = "TerraformGFT"
-    Owner       = "Kleber Rausis"
-    UpdatedAt   = "2021-11-30"
+    Owner       = "Fernando Alevato"
+    UpdatedAt   = "2022-01-25"
   }
 }
